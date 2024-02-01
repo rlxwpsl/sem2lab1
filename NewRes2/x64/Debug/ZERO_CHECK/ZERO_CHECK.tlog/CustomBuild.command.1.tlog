@@ -1,0 +1,10 @@
+^C:\GIT\SEM2LAB1\NEWRES2\CMAKEFILES\DE27E19F92666705B4CAD20BC837821B\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SC:/Git/sem2lab1/CloneCMake2 -BC:/Git/sem2lab1/NewRes2 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Git/sem2lab1/NewRes2/sem1_lab2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
