@@ -1,0 +1,3 @@
+C:/Users/gdien/sem2lab1/NewRes1/CMakeFiles/sem1_lab1.dir
+C:/Users/gdien/sem2lab1/NewRes1/CMakeFiles/ALL_BUILD.dir
+C:/Users/gdien/sem2lab1/NewRes1/CMakeFiles/ZERO_CHECK.dir
