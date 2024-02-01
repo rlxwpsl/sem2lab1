@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\Users\t\source\repos\sem1_lab1\main.cpp(24,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  sem1_lab1.vcxproj -> D:\Users\t\source\repos\sem1_lab1\x64\Debug\sem1_lab1.exe
