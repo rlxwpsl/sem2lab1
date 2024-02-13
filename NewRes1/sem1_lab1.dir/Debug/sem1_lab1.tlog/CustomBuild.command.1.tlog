@@ -1,0 +1,10 @@
+^C:\USERS\GDIEN\SEM2LAB1\CLONECMAKE1\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/gdien/sem2lab1/CloneCMake1 -BC:/Users/gdien/sem2lab1/NewRes1 --check-stamp-file C:/Users/gdien/sem2lab1/NewRes1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
