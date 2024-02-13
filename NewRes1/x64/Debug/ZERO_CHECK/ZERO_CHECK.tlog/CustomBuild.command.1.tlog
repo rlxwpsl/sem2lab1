@@ -1,0 +1,10 @@
+^C:\USERS\GDIEN\SEM2LAB1\NEWRES1\CMAKEFILES\6107B2B8A17D5E62493C300E2E8219F4\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/gdien/sem2lab1/CloneCMake1 -BC:/Users/gdien/sem2lab1/NewRes1 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/gdien/sem2lab1/NewRes1/sem1_lab1.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
